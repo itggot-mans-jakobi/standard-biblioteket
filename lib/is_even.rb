@@ -5,5 +5,3 @@ def is_even(number)
     end
     return output
 end
-
-puts is_even(-81)

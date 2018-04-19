@@ -6,5 +6,3 @@ def is_negative(number)
     end
     return output
 end
-
-puts is_negative(-3)
