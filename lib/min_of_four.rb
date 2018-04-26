@@ -1,3 +1,16 @@
+# Public: Checks what number is smallest of the four.
+#
+# number1  - a integer that will be compaired.
+# number2  - a integer that will be compaired.
+# number3  - a integer that will be compaired.
+# number4  - a integer that will be compaired.
+#
+# Examples
+#
+#   min_of_two(1, 3, 6, 9)
+#   # => 1
+#
+# Returns the smallest number.
 def min_of_four(number1, number2, number3, number4)
     output = number1
     if output > number2
@@ -11,7 +24,3 @@ def min_of_four(number1, number2, number3, number4)
     end
     return output
 end
-
-puts min_of_four(1, 2, 3, 4)
-puts min_of_four(100, 2, 256, 1)
-puts min_of_four(1337, -1337, 0, -1338)
