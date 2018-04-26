@@ -7,7 +7,7 @@
 #   sum_to(10)
 #   # => 55
 #
-# Returns the som of all the numbers from 0 to the given number.
+# Returns the sum of all the numbers from 0 to the given number.
 def sum_to(number)
     i = 0
     output = 0
