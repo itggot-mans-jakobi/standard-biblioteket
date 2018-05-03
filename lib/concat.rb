@@ -16,6 +16,5 @@ def concat(array1, array2)
         output << array2[i]
         i += 1
     end
-    p output
     return output
 end

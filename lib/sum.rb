@@ -17,5 +17,3 @@ def sum(array)
     end
     return output
 end
-
-puts sum([1, 2, 3, 4, 5])
