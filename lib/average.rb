@@ -1,3 +1,13 @@
+# Public: Calculates the average of the integr:s in the array.
+#
+# array - an array with integer:s.
+#
+# Examples
+#
+#   average([1, 4])
+#   # => 2.5
+#
+# Returns the average of the integr:s in the array.
 def average(array)
     i = 0
     sum = 0
