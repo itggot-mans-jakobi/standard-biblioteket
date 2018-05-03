@@ -7,16 +7,16 @@
 #
 #   index_of_char("hej hopp", h)
 #   # => [0, 4]
-
+#
 #   index_of_char("hej hopp", !)
 #   # => nil
 #
 # Returns the index of indexes of the given character in the given string in an array. If the character is not found returns nil.
-def index_of_char(string, charachter)
+def index_of_char(string, character)
     i = 0
     output = []
     while i < string.length
-        if charachter == string[i]
+        if character == string[i]
             output << i
         end
         i += 1
